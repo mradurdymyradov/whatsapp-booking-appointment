@@ -16,10 +16,10 @@
       ],
       "id": "0a503c15-a4be-45d5-9b4b-d6b520455d21",
       "name": "WhatsApp Trigger",
-      "webhookId": "280a9410-cc39-424b-97df-366398f9add3",
+      "webhookId": "sample-webhook-uuid-placeholder",
       "credentials": {
         "whatsAppTriggerApi": {
-          "id": "gk7cdyhxcO89kF6e",
+          "id": "mock-whatsAppTriggerApi-id",
           "name": "WhatsApp OAuth account"
         }
       }
@@ -40,10 +40,10 @@
       ],
       "id": "d51fdcd8-b792-46cf-9a90-05f582f2be00",
       "name": "Send message",
-      "webhookId": "e583196b-fcee-499b-9c1f-2e0f42460682",
+      "webhookId": "sample-webhook-uuid-placeholder",
       "credentials": {
         "whatsAppApi": {
-          "id": "T2zDHAIQ446ieGwb",
+          "id": "mock-whatsAppApi-id",
           "name": "WhatsApp account"
         }
       }
@@ -85,7 +85,7 @@
       "name": "OpenAI Chat Model",
       "credentials": {
         "openAiApi": {
-          "id": "gBS76aDzfGDBNRX1",
+          "id": "mock-openAiApi-id",
           "name": "OpenAi account"
         }
       }
@@ -126,7 +126,7 @@
       "name": "calendar read",
       "credentials": {
         "googleCalendarOAuth2Api": {
-          "id": "hGOnF4NrqEslKQum",
+          "id": "mock-googleCalendarOAuth2Api-id",
           "name": "Google Calendar account"
         }
       }
@@ -156,7 +156,7 @@
       "name": "calendar create",
       "credentials": {
         "googleCalendarOAuth2Api": {
-          "id": "hGOnF4NrqEslKQum",
+          "id": "mock-googleCalendarOAuth2Api-id",
           "name": "Google Calendar account"
         }
       }
@@ -183,7 +183,7 @@
       "name": "calendar delete",
       "credentials": {
         "googleCalendarOAuth2Api": {
-          "id": "hGOnF4NrqEslKQum",
+          "id": "mock-googleCalendarOAuth2Api-id",
           "name": "Google Calendar account"
         }
       }
@@ -192,17 +192,17 @@
       "parameters": {
         "documentId": {
           "__rl": true,
-          "value": "1exV14gQhXqjpzx67GL7xSbgdiApa7tMB5GigOoAHcJQ",
+          "value": "YOUR_GOOGLE_SHEET_ID",
           "mode": "list",
           "cachedResultName": "v1 WhatsApp AI Agent Appointment Setter",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1exV14gQhXqjpzx67GL7xSbgdiApa7tMB5GigOoAHcJQ/edit?usp=drivesdk"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID/edit?usp=drivesdk"
         },
         "sheetName": {
           "__rl": true,
           "value": 689245338,
           "mode": "list",
           "cachedResultName": "Appointments",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1exV14gQhXqjpzx67GL7xSbgdiApa7tMB5GigOoAHcJQ/edit#gid=689245338"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID/edit#gid=689245338"
         },
         "options": {
           "dataLocationOnSheet": {
@@ -223,7 +223,7 @@
       "name": "Get row(s) in sheet in Google Sheets",
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "CZRnUw3GGfy9xJCJ",
+          "id": "mock-googleSheetsOAuth2Api-id",
           "name": "Google Sheets account"
         }
       }
@@ -233,17 +233,17 @@
         "operation": "append",
         "documentId": {
           "__rl": true,
-          "value": "1exV14gQhXqjpzx67GL7xSbgdiApa7tMB5GigOoAHcJQ",
+          "value": "YOUR_GOOGLE_SHEET_ID",
           "mode": "list",
           "cachedResultName": "v1 WhatsApp AI Agent Appointment Setter",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1exV14gQhXqjpzx67GL7xSbgdiApa7tMB5GigOoAHcJQ/edit?usp=drivesdk"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID/edit?usp=drivesdk"
         },
         "sheetName": {
           "__rl": true,
           "value": 689245338,
           "mode": "list",
           "cachedResultName": "Appointments",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1exV14gQhXqjpzx67GL7xSbgdiApa7tMB5GigOoAHcJQ/edit#gid=689245338"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID/edit#gid=689245338"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -347,7 +347,7 @@
       "name": "Google Sheets - add rows",
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "CZRnUw3GGfy9xJCJ",
+          "id": "mock-googleSheetsOAuth2Api-id",
           "name": "Google Sheets account"
         }
       }
@@ -357,17 +357,17 @@
         "operation": "update",
         "documentId": {
           "__rl": true,
-          "value": "1exV14gQhXqjpzx67GL7xSbgdiApa7tMB5GigOoAHcJQ",
+          "value": "YOUR_GOOGLE_SHEET_ID",
           "mode": "list",
           "cachedResultName": "v1 WhatsApp AI Agent Appointment Setter",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1exV14gQhXqjpzx67GL7xSbgdiApa7tMB5GigOoAHcJQ/edit?usp=drivesdk"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID/edit?usp=drivesdk"
         },
         "sheetName": {
           "__rl": true,
           "value": 689245338,
           "mode": "list",
           "cachedResultName": "Appointments",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1exV14gQhXqjpzx67GL7xSbgdiApa7tMB5GigOoAHcJQ/edit#gid=689245338"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID/edit#gid=689245338"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -485,7 +485,7 @@
       "name": "Update row in sheet in Google Sheets",
       "credentials": {
         "googleSheetsOAuth2Api": {
-          "id": "CZRnUw3GGfy9xJCJ",
+          "id": "mock-googleSheetsOAuth2Api-id",
           "name": "Google Sheets account"
         }
       }
@@ -507,10 +507,10 @@
       ],
       "id": "fa152e77-cefc-41b0-8f95-f0d13b0d802b",
       "name": "Send a message in Gmail",
-      "webhookId": "f4669fdf-e3a0-4aea-b69c-490065336a82",
+      "webhookId": "sample-webhook-uuid-placeholder",
       "credentials": {
         "gmailOAuth2": {
-          "id": "UW2wwmXJVvxEBuKP",
+          "id": "mock-gmailOAuth2-id",
           "name": "Gmail account"
         }
       }
